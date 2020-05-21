@@ -1,0 +1,13 @@
+#bgimage {
+  background: url(images/cats_1200.jpg) no-repeat;
+  height: 30em;
+}
+
+@media only screen and (max-width: 600px) {
+  #bgimage {
+    background: url(images/cats_600.jpg) no-repeat;
+    height: 20em;
+    border: 1px solid red;
+  }
+
+}

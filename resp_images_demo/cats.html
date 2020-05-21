@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cats</title>
+
+  <style>
+    @media only screen and (max-width: 600px) {
+      img {
+        width: 50%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <picture>
+
+    <source srcset="images/cats_1200.jpg"
+    media="(min-width: 1000px)">
+
+    <source srcset="images/cats_1000.jpg"
+    media="(min-width: 800px)">
+
+
+    <source srcset="images/cats_400.jpg"
+            media="(min-width: 1px)">
+    
+
+
+    <source srcset="./images/cats_1000.jpg" media="(min-width: 1000px)">
+
+    <img src="./images/cats_600.jpg" alt="cats">
+
+  </picture>
+
+</body>
+
+</html>

@@ -85,7 +85,7 @@
   - Properties for the Flex items (children)
 
 - [Flexbox Exercise 1](https://codepen.io/DominicTremblay/pen/ExVZWKw)
-
+- [Flexbox Exercise 2](https://codepen.io/DominicTremblay/pen/qBOgONj?editors=1100)
 ## Media-queries
 
 - Media queries will allow you to use different CSS style rules according to various screen sizes
@@ -107,6 +107,20 @@
 - [Media Query Example](https://codepen.io/DominicTremblay/pen/pojReMW)
 
 * [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
+
+## Responsive Images
+
+Images should change sizes according to screen resolution.
+
+- image tags
+- background images
+
+### Picture Tag
+
+- [CanIUse](https://caniuse.com/#search=picture)
+
+- [Picture Tag Example](./resp_images_demo/cats.html)
+- [Background Image Example](./resp_images_demo/bgimage.html)
 
 ## Grid Systems
 
