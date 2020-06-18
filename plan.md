@@ -68,16 +68,24 @@
 
 - [em vs rem example](https://codepen.io/DominicTremblay/pen/qBORmme)
 
-## Layout Recap
-
-### Floats
+## Floats
 
 - [Float Example](https://codepen.io/DominicTremblay/pen/vYNgzVw)
 
-### Flexbox
+## Flexbox
 
-- [Flexbox Exercise](https://codepen.io/nimaboscarino/pen/KKVKNmj)
+- The Flexbox Layout (Flexible Box) provides a more efficient way to lay out, align and distribute space among items in a container.
 
+- Flex layout gives the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes).
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+  - Main-axis / Cross-axis
+  - Properties for the Flex container (parent)
+  - Properties for the Flex items (children)
+
+- [Flexbox Exercise 1](https://codepen.io/DominicTremblay/pen/ExVZWKw)
+- [Flexbox Exercise 2](https://codepen.io/DominicTremblay/pen/qBOgONj?editors=1100)
 ## Media-queries
 
 - Media queries will allow you to use different CSS style rules according to various screen sizes

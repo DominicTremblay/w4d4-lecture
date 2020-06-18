@@ -8,32 +8,18 @@
 
   <style>
     @media only screen and (max-width: 600px) {
-      img {
-        width: 50%;
-      }
+     
     }
   </style>
 </head>
 
-<body>
+<body>    
 
   <picture>
 
-    <source srcset="images/cats_1200.jpg"
-    media="(min-width: 1000px)">
-
-    <source srcset="images/cats_1000.jpg"
-    media="(min-width: 800px)">
-
-
-    <source srcset="images/cats_400.jpg"
-            media="(min-width: 1px)">
-    
-
-
-    <source srcset="./images/cats_1000.jpg" media="(min-width: 1000px)">
-
-    <img src="./images/cats_600.jpg" alt="cats">
+    <source srcset="./images/cats_400.jpg" media="(max-width:400px)">
+    <source srcset="./images/cats_600.jpg" media="(max-width:600px)">
+    <img src="./images/cats_1200.jpg" alt="cats">
 
   </picture>
 

@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  height: 90vh;
+}
+
+header {
+  background-color: aquamarine;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-grow: 3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.container div {
+  display: flex;
+  flex-grow: 1;
+}
+
+.container div:first-child section:first-child {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+.container div:first-child section:nth-child(2) {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightgoldenrodyellow;
+}
+
+.container div:first-child section:last-child {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+
+  background-color: darkgrey;
+}
+
+.container div:last-child section:first-child {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-grow: 1;
+  background-color: pink;
+}
+
+.container div:last-child section:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: darkorange;
+}
+
+.container div:last-child section:last-child {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+aside {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: mistyrose;
+}
