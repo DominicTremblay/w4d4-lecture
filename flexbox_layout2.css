@@ -1,0 +1,98 @@
+/* Do not edit this code, instead scroll down to the bottom and add new CSS rules! */
+
+/* In fact, don't even worry about the code here!! */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  background: #ec6443;
+}
+
+.container {
+  flex-grow: 2;
+  display: flex;
+  align-items: stretch;
+  background-color: lightblue;
+}
+
+.left-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+.cde {
+  flex-grow: 1;
+  display: flex;
+  background-color: lightblue;
+}
+
+.right-boxes {
+  flex-grow: 1;
+  border: 1px solid blue;
+  background-color: #d83a3d;
+}
+
+.b {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  background: #48998d;
+}
+
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #c6d86d;
+  flex-grow: 1;
+}
+
+.d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #54494b;
+  flex-grow: 1;
+}
+
+.e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b23c86;
+  flex-grow: 1;
+}
+
+.f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background: #d83a3d;
+}
+
+footer {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightpink;
+}
+
+.g {
+  /*   background: #2F294D; */
+}
+/* Add your code below */

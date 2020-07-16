@@ -2,7 +2,6 @@
 
 - What is responsive design
 - Relative Units
-- FlexBox
 - Grid Systems
 - Sass
 
