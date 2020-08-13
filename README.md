@@ -2,13 +2,16 @@
 
 - What is responsive design
 - Relative Units
+- Media queries
 - Grid Systems
 - Sass
 
 ## What is resonsive design?
 
 - Mobile accounts for over 50% of web traffic worldwide.
-- [Ref.: statista](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)
+- [Graphics. Ref.: statista](./mobile_stats.png)
+
+> Mobile accounts for approximately half of web traffic worldwide. In the second quarter of 2020, mobile devices (excluding tablets) generated 51.53 percent of global website traffic, consistently hovering around the 50 percent mark since the beginning of 2017. [Ref.: statista](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)
 
 - A multitude of different screen sizes exist across phones, "phablets," tablets, desktops, game consoles, TVs, and even wearables.
 - Responsive design means that your Web app can adapt to any screen size and provide a good user-experience
@@ -57,8 +60,8 @@
 
 | Unit | Relative to                                              |
 | ---- | -------------------------------------------------------- |
-| em   | Size of the parent                                  |
-| rem  | Size of the root element                            |
+| em   | Size of the parent                                       |
+| rem  | Size of the root element                                 |
 | vw   | 1% of the viewport's width.                              |
 | vh   | 1% of the viewport's height.                             |
 | vmin | 1% of the viewport's smaller dimension.                  |
@@ -66,16 +69,6 @@
 | %    | Percentage of the parent size (width, height, font-size) |
 
 - [em vs rem example](https://codepen.io/DominicTremblay/pen/qBORmme)
-
-## Layout Recap
-
-### Floats
-
-- [Float Example](https://codepen.io/DominicTremblay/pen/vYNgzVw)
-
-### Flexbox
-
-- [Flexbox Exercise](https://codepen.io/nimaboscarino/pen/KKVKNmj)
 
 ## Media-queries
 
@@ -112,6 +105,7 @@ Images should change sizes according to screen resolution.
 
 - [Picture Tag Example](./resp_images_demo/cats.html)
 - [Background Image Example](./resp_images_demo/bgimage.html)
+- [Responsive Images - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 ## Grid Systems
 
@@ -143,8 +137,25 @@ The Bootstrap 4 grid system has five classes:
   - Partials
   - Mixins
   - Extend/Inheritance
-  
 
-- [Sass Demo](https://codepen.io/DominicTremblay/project/editor/ArwxLr)
+* [Sass Demo](https://codepen.io/DominicTremblay/project/editor/ArwxLr)
 
-- [Sass Guide](https://sass-lang.com/guide)
+* [Sass Guide](https://sass-lang.com/guide)
+
+### How To Use Sass With a Node Project
+
+- node-sass-middleware
+
+## Flexbox Recap
+
+- The Flexbox Layout (Flexible Box) provides a more efficient way to lay out, align and distribute space among items in a container.
+
+- Flex layout gives the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes).
+
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+  - Main-axis / Cross-axis
+  - Properties for the Flex container (parent)
+  - Properties for the Flex items (children)
+
+- [Flexbox Exercise](https://codepen.io/DominicTremblay/pen/qBOgONj?editors=1100)
