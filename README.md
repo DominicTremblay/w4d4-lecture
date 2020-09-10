@@ -122,6 +122,8 @@ Images should change sizes according to screen resolution.
 
 - [Type Scale](https://type-scale.com/)
 
+- [Type scale CSS](./type-scale.css)
+
 - [CSS Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 
 ## Grid Systems
