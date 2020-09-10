@@ -113,8 +113,8 @@ Images should change sizes according to screen resolution.
 
 - [CanIUse](https://caniuse.com/#search=picture)
 
-- [Picture Tag Example](./resp_images_demo/cats.html)
-- [Background Image Example](./resp_images_demo/bgimage.html)
+- [Picture Tag Example](./cats.html)
+- [Background Image Example](./bgimage.html)
 - [Responsive Images - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 
