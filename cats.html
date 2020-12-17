@@ -21,6 +21,20 @@
   <title>Cats</title>
 
   <style>
+/* 
+    @media only screen and (max-width: 400px) {
+      img {
+        width: 15em;
+        border: 2px solid blue;
+      }
+    }
+
+    @media only screen and (min-width: 401px) and (max-width: 600px) {
+      img {
+        width: 25em;
+        border: 2px solid green;
+      }
+    } */
 
   </style>
 
@@ -31,18 +45,16 @@
 
   <picture>
 
-    <source srcset="./images/cats_200.jpg" media="max-width: 200px">
-    <source srcset="./images/cats_400.jpg" media="max-width: 400px">
-    <source srcset="./images/cats_600.jpg" media="max-width: 600px">
-    <source srcset="./images/cats_800.jpg" media="max-width: 800px">
-    <source srcset="./images/cats_1000.jpg" media="max-width: 1000px">
+    <source srcset="./images/cats_200.jpg" media="(max-width: 200px)">
+    <source srcset="./images/cats_400.jpg" media="(max-width: 400px)">
+    <source srcset="./images/cats_600.jpg" media="(max-width: 600px)">
+    <source srcset="./images/cats_800.jpg" media="(max-width: 800px)">
+    <source srcset="./images/cats_1000.jpg" media="(max-width: 1000px)">
 
     <img class='cat-img' src="./images/cats_1200.jpg" alt="cats">
 
   </picture>
 
-
-  </picture>
 
 </body>
 

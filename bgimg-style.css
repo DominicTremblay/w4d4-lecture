@@ -1,44 +1,43 @@
 
 
-@media only screen and (max-width: 200px) {
 
+@media only screen and (max-width: 200px) {
   #bgimage {
     background-image: url('./images/cats_200.jpg');
+    border: 2px solid gold;
+    height: 10vh;
   }
-
 }
 
 @media only screen and (min-width: 200px) and (max-width: 400px) {
-
   #bgimage {
     background-image: url('./images/cats_300.jpg');
+    border: 2px solid aqua;
+    height: 20vh;
   }
-
 }
 
-
 @media only screen and (min-width: 400px) and (max-width: 600px) {
-
   #bgimage {
     background-image: url('./images/cats_600.jpg');
+    border: 2px solid green;
+    height: 40vh;
   }
-
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
-
   #bgimage {
     background-image: url('./images/cats_1000.jpg');
+    border: 2px solid blue;
+    height: 60vh;
   }
-
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1200px) {
-
   #bgimage {
     background-image: url('./images/cats_1200.jpg');
+    background-size: cover;
+    border: 2px solid red;
+    height: 90vh;
   }
-
 }
-
-

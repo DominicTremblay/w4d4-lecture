@@ -13,10 +13,11 @@
 - Mobile accounts for over 50% of web traffic worldwide.
 - [Graphics. Ref.: statista](./mobile_stats.png)
 
-> Mobile accounts for approximately half of web traffic worldwide. In the second quarter of 2020, mobile devices (excluding tablets) generated 51.53 percent of global website traffic, consistently hovering around the 50 percent mark since the beginning of 2017. [Ref.: statista](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)
+> Mobile accounts for approximately half of web traffic worldwide. In the third quarter of 2020, mobile devices (excluding tablets) generated 50.81 percent of global website traffic, consistently hovering around the 50 percent mark since the beginning of 2017. [Ref.: statista](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)
 
 - A multitude of different screen sizes exist across phones, "phablets," tablets, desktops, game consoles, TVs, and even wearables.
 - Responsive design means that your Web app can adapt to any screen size and provide a good user-experience
+- With responsive web design the server always sends the same HTML code to all devices, and CSS is used to alter the rendering of the page on the device.
 
 ### Caracteristics
 
