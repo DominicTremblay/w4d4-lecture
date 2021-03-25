@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    @media only screen and (max-width: 400px) {
+
+      #cat-img {
+        width: 100%;
+      }
+
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div>
+
+    <picture>
+
+      <source srcset="./images/cats_200.jp" media="(max-width: 200px)">
+      <source srcset="./images/cats_400.jpg" media="(max-width: 400px)">
+      <source srcset="./images/cats_600.jpg" media="(max-width: 600px)">
+      <source srcset="./images/cats_1000.jpg" media="(max-width: 1000px)">
+
+      <img id="cat-img" src="./images/cats_original.jpg" alt="cat">
+    </picture>
+
+  </div>
+
+</body>
+
+</html>
