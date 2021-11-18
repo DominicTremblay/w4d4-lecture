@@ -1,0 +1,40 @@
+@import '_globals';
+@import '_top_nav';
+@import '_iphone';
+@import '_font_scale';
+
+
+section.product-list {
+  /* display: flex; */
+  justify-content:center;
+  background-color: aliceblue;
+}
+
+section.product-list .item {
+
+  height: 300px;
+  border: 1px solid gainsboro;
+  padding: 0;
+  overflow: hidden;
+  /* margin: 0.2rem; */
+}
+
+section.product-list img {
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.footer > div {
+  flex-grow: 1;
+}
+
+
+
+
+
+

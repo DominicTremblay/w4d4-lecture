@@ -1,0 +1,51 @@
+#top-nav {
+  display: flex;
+  justify-content: center;
+
+  .contact-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+  }
+
+  .contact {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin-right: 3rem;
+    }
+  }
+
+  .social {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin-right: 3rem;
+    }
+  }
+
+  section.brand-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+  }
+}
+
+.brand-nav .logo img {
+  width: 10rem;
+}
+
+section.splash {
+  border: 1px solid black;
+  height: 20rem;
+  margin: 2rem auto;
+
+  /* background-image: url(http://placekitten.com/1200/200); */
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}

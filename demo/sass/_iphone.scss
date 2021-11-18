@@ -1,0 +1,23 @@
+@media only screen and (min-width: 375px) and (max-width: 667px){
+
+  body {
+    border: 2px solid pink;
+  }
+
+  #top-nav .social {
+    display: none;
+  }
+
+  .label {
+    display: none;
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  section.splash {
+    /* background-image: url(http://placekitten.com/400/200); */
+  }
+
+}
