@@ -1,0 +1,46 @@
+@import '_top_nav';
+@import '_iphone';
+
+$product-list-bg-color: aliceblue;
+
+section.splash {
+  border: 1px solid black;
+  height: 20rem;
+  margin: 2rem auto;
+
+  background-image: url(http://placeimg.com/640/480/tech);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section.product-list {
+  /* display: flex; */
+  justify-content: center;
+  background-color: $product-list-bg-color;
+}
+
+section.product-list .item {
+  height: 300px;
+  border: 1px solid gainsboro;
+  padding: 0;
+  overflow: hidden;
+  margin: 0.2rem;
+}
+
+section.product-list img {
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.footer > div {
+  flex-grow: 1;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  // rules for ipad
+}

@@ -2,19 +2,16 @@
   display: flex;
   justify-content: center;
 }
-
 #top-nav .contact-nav {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
   border: 1px solid gainsboro;
 }
-
 #top-nav .contact {
   display: flex;
   list-style: none;
 }
-
 #top-nav .contact li {
   margin-right: 3rem;
 }
@@ -35,11 +32,49 @@
   height: 6rem;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  #top-nav .social {
+    display: none;
+  }
+
+  #top-nav .label {
+    display: none;
+  }
+
+  section.product-list {
+    /* flex-wrap: wrap; */
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .product-list {
+    justify-content: center;
+    width: 96%;
+  }
+
+  .product-list img {
+    width: 100%;
+  }
+
+  .product-list .row div {
+    margin: 0.1rem;
+  }
+
+  .footer .small {
+    flex-basis: 50%;
+  }
+
+  section.splash {
+    width: 94%;
+    background-image: url(http://placeimg.com/300/200/tech);
+  }
+}
 section.splash {
   border: 1px solid black;
   height: 20rem;
   margin: 2rem auto;
-
   background-image: url(http://placeimg.com/640/480/tech);
   background-size: cover;
   background-repeat: no-repeat;
@@ -73,50 +108,4 @@ section.product-list img {
   flex-grow: 1;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
-  #top-nav .social {
-    display: none;
-  }
-
-  #top-nav .label {
-    display: none;
-  }
-
-  section.product-list {
-    /* flex-wrap: wrap; */
-  }
-
-  .footer {
-    flex-wrap: wrap;
-  }
-
-  .product-list {
-    justify-content: center;
-    width: 96%;
-  }
-
-  .product-list img {
-    width: 100%;
-
-  }
-
-  .product-list .row div {
-
-    margin: 0.1rem;
-
-  }
-  .footer .small {
-    flex-basis: 50%;
-  }
-
-  section.splash {
-    width: 94%;
-    background-image: url(http://placeimg.com/300/200/tech);
-  }
-
-
-}
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  // rules for ipad
-}
+/*# sourceMappingURL=styles.css.map */

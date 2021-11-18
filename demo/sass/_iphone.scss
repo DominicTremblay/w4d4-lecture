@@ -1,0 +1,44 @@
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  #top-nav .social {
+    display: none;
+  }
+
+  #top-nav .label {
+    display: none;
+  }
+
+  section.product-list {
+    /* flex-wrap: wrap; */
+  }
+
+  .footer {
+    flex-wrap: wrap;
+  }
+
+  .product-list {
+    justify-content: center;
+    width: 96%;
+  }
+
+  .product-list img {
+    width: 100%;
+
+  }
+
+  .product-list .row div {
+
+    margin: 0.1rem;
+
+  }
+  .footer .small {
+    flex-basis: 50%;
+  }
+
+  section.splash {
+    width: 94%;
+    background-image: url(http://placeimg.com/300/200/tech);
+  }
+
+
+}
