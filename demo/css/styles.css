@@ -46,7 +46,7 @@ section.splash {
 }
 
 section.product-list {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   background-color: aliceblue;
 }
@@ -83,18 +83,40 @@ section.product-list img {
   }
 
   section.product-list {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 
   .footer {
     flex-wrap: wrap;
   }
 
+  .product-list {
+    justify-content: center;
+    width: 96%;
+  }
+
+  .product-list img {
+    width: 100%;
+
+  }
+
+  .product-list .row div {
+
+    margin: 0.1rem;
+
+  }
   .footer .small {
     flex-basis: 50%;
   }
 
+  section.splash {
+    width: 94%;
+    background-image: url(http://placeimg.com/300/200/tech);
+  }
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  // rules for ipad
 }
