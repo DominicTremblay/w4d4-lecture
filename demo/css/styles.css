@@ -1,0 +1,82 @@
+
+
+#top-nav {
+  
+  display: flex;
+  justify-content: center;
+  
+}
+
+#top-nav .contact-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  border: 1px solid gainsboro;
+}
+
+#top-nav .contact {
+  display: flex;
+  list-style: none;
+}
+
+#top-nav .contact li {
+  margin-right: 3rem;
+}
+
+#top-nav .social {
+  display: flex;
+  list-style: none;
+}
+
+#top-nav .social li {
+  margin-right: 3rem;
+}
+
+#top-nav section.brand-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6rem;
+}
+
+section.splash {
+  border: 1px solid black;
+  height: 20rem;
+  margin: 2rem auto;
+
+  background-image: url(http://placeimg.com/640/480/tech);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+
+section.product-list {
+  display: flex;
+  justify-content:center;
+  background-color: aliceblue;
+}
+
+section.product-list .item {
+
+  height: 300px;
+  border: 1px solid gainsboro;
+  padding: 0;
+  overflow: hidden;
+  margin: 0.2rem;
+}
+
+section.product-list img {
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.footer > div {
+  flex-grow: 1;
+}
+
+
