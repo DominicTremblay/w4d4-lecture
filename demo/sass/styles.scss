@@ -1,40 +1,10 @@
-#top-nav {
-  display: flex;
-  justify-content: center;
-}
-#top-nav .contact-nav {
-  display: flex;
-  justify-content: space-between;
-  background-color: whitesmoke;
-  border: 1px solid gainsboro;
-}
-#top-nav .contact {
-  display: flex;
-  list-style: none;
-}
-#top-nav .contact li {
-  margin-right: 3rem;
-}
-
-#top-nav .social {
-  display: flex;
-  list-style: none;
-}
-
-#top-nav .social li {
-  margin-right: 3rem;
-}
-
-#top-nav section.brand-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 6rem;
-}
+@import 'global_val';
+@import 'nav';
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $base-font;
 }
+
 
 .brand-nav .logo img {
   width: 10rem;
@@ -45,18 +15,20 @@ section.splash {
   height: 20rem;
   margin: 2rem auto;
   overflow: hidden;
-  background-image: url("http://placekitten.com/1200/200");
-  background-size: cover;
+  background-image: url($bg-img-large);
+  background-size:cover;
   background-repeat: no-repeat;
+  
 }
 
 section.product-list {
   /* display: flex; */
-  justify-content: center;
+  justify-content:center;
   background-color: aliceblue;
 }
 
 section.product-list .item {
+
   height: 300px;
   border: 1px solid gainsboro;
   padding: 0;
@@ -79,8 +51,11 @@ section.product-list img {
 }
 
 @media only screen and (max-width: 667px) {
+
   #top-nav {
+
     border: 4px solid pink;
+
   }
 
   #top-nav .social {
@@ -96,9 +71,11 @@ section.product-list img {
   }
 
   section.splash {
+
     border: 2px solid coral;
     background-image: url(http://placekitten.com/600/400);
   }
+
 }
 
-/*# sourceMappingURL=styles.css.map */
+
